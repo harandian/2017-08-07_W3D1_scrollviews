@@ -15,6 +15,8 @@
 		221B93211F38C8D700DBAB99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 221B93201F38C8D700DBAB99 /* main.m */; };
 		221B932B1F38C8D700DBAB99 /* PanningForGoldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221B932A1F38C8D700DBAB99 /* PanningForGoldTests.m */; };
 		221B93361F38C8D700DBAB99 /* PanningForGoldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 221B93351F38C8D700DBAB99 /* PanningForGoldUITests.m */; };
+		2252F04C1F38C9EE001625A3 /* cage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2252F04B1F38C9EE001625A3 /* cage.jpg */; };
+		2252F04F1F38CF35001625A3 /* TurnAPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2252F04E1F38CF35001625A3 /* TurnAPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		221B93311F38C8D700DBAB99 /* PanningForGoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanningForGoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		221B93351F38C8D700DBAB99 /* PanningForGoldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanningForGoldUITests.m; sourceTree = "<group>"; };
 		221B93371F38C8D700DBAB99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2252F04B1F38C9EE001625A3 /* cage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cage.jpg; path = ../../cage.jpg; sourceTree = "<group>"; };
+		2252F04D1F38CF35001625A3 /* TurnAPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurnAPageViewController.h; sourceTree = "<group>"; };
+		2252F04E1F38CF35001625A3 /* TurnAPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TurnAPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +108,11 @@
 			children = (
 				221B93111F38C8D700DBAB99 /* AppDelegate.h */,
 				221B93121F38C8D700DBAB99 /* AppDelegate.m */,
+				2252F04D1F38CF35001625A3 /* TurnAPageViewController.h */,
+				2252F04E1F38CF35001625A3 /* TurnAPageViewController.m */,
 				221B93141F38C8D700DBAB99 /* ViewController.h */,
 				221B93151F38C8D700DBAB99 /* ViewController.m */,
+				2252F04B1F38C9EE001625A3 /* cage.jpg */,
 				221B93171F38C8D700DBAB99 /* Main.storyboard */,
 				221B931A1F38C8D700DBAB99 /* Assets.xcassets */,
 				221B931C1F38C8D700DBAB99 /* LaunchScreen.storyboard */,
@@ -238,6 +246,7 @@
 				221B931E1F38C8D700DBAB99 /* LaunchScreen.storyboard in Resources */,
 				221B931B1F38C8D700DBAB99 /* Assets.xcassets in Resources */,
 				221B93191F38C8D700DBAB99 /* Main.storyboard in Resources */,
+				2252F04C1F38C9EE001625A3 /* cage.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +273,7 @@
 			files = (
 				221B93161F38C8D700DBAB99 /* ViewController.m in Sources */,
 				221B93211F38C8D700DBAB99 /* main.m in Sources */,
+				2252F04F1F38CF35001625A3 /* TurnAPageViewController.m in Sources */,
 				221B93131F38C8D700DBAB99 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +528,7 @@
 				221B933C1F38C8D700DBAB99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221B933D1F38C8D700DBAB99 /* Build configuration list for PBXNativeTarget "PanningForGoldTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +537,7 @@
 				221B933F1F38C8D700DBAB99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		221B93401F38C8D700DBAB99 /* Build configuration list for PBXNativeTarget "PanningForGoldUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +546,7 @@
 				221B93421F38C8D700DBAB99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
